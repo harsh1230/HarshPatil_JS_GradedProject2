@@ -1,0 +1,42 @@
+body {
+
+    background-color: rgba(0, 0, 0, 0.077);
+}
+
+#outerBox {
+
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    background-color: rgba(255, 251, 0, 0.705);
+    padding: 5%;
+}
+
+#username,
+#password {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-size: x-large;
+}
+
+#login {
+
+    position: relative;
+    left: 40%;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: yellowgreen;
+}
+
+#login:active {
+
+    background-color: azure;
+}
+
+#error {
+
+    color: red;
+}
